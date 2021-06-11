@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.user-web{
+    display: flex;
+    flex-direction: column;
+}
+.seach-div{
+    margin-top: 30px;
+    /* text-align: center; */
+    margin-left: 250px;
+    /* background: aqua; */
+    flex: 1;
+}
+.user{
+    display: flex;
+    flex: 5;
+    margin-top: 30px;
+    margin-left: 40px;
+    flex-direction: row;
+}
+.users-information{
+    flex: 1;
+    /* background-color:azure */
+}
+.user-posts{
+    flex: 3;
+   
+}
+.user-class{
+    display: none;
+}
+.user-class-display{
+    display: block;;
+}
+
+
+.user-name{
+    margin-left: 10px;
+}
+
+.seach-div{
+    align-items: center;
+    justify-content: center;
+    padding: 15;
+    width: fit-content;
+    margin: 50 auto;
+    
+}
+
+.col{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.userPost{
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+#idBut{
+    color: darkolivegreen;
+}
